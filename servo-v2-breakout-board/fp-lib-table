@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name eec)(type KiCad)(uri "${KIPRJMOD}/Conn_Panasonic Corporation_AXK850145WG/eec.pretty")(options "")(descr ""))
+)
