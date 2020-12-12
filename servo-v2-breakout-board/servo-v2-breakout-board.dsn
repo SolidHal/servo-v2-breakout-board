@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  144780 -108204  126238 -108204  126238 -13716  144780 -13716
-            144780 -108204)
+      (path pcb 0  143764 -121158  124968 -121158  124968 -13208  143764 -13208
+            143764 -121158)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -33,56 +33,56 @@
     )
   )
   (placement
-    (component Connector_PinHeader_2.00mm:PinHeader_1x25_P2.00mm_Vertical
+    (component Connector_PinHeader_2.54mm:PinHeader_1x25_P2.54mm_Vertical
+      (place EVEN1 136906 -57150 front 0 (PN Conn_01x25_Male))
       (place ODD1 129540 -57150 front 0 (PN Conn_01x25_Male))
-      (place EVEN1 138938 -57150 front 0 (PN Conn_01x25_Male))
     )
     (component "eec:Panasonic_Corporation-AXK850145WG-0"
       (place J1 133350 -17780 front 0 (PN AXK850145WG))
     )
   )
   (library
-    (image Connector_PinHeader_2.00mm:PinHeader_1x25_P2.00mm_Vertical
-      (outline (path signal 100  -500 1000  1000 1000))
-      (outline (path signal 100  1000 1000  1000 -49000))
-      (outline (path signal 100  1000 -49000  -1000 -49000))
-      (outline (path signal 100  -1000 -49000  -1000 500))
-      (outline (path signal 100  -1000 500  -500 1000))
-      (outline (path signal 120  -1060 -49060  1060 -49060))
-      (outline (path signal 120  -1060 -1000  -1060 -49060))
-      (outline (path signal 120  1060 -1000  1060 -49060))
-      (outline (path signal 120  -1060 -1000  1060 -1000))
-      (outline (path signal 120  -1060 0  -1060 1060))
-      (outline (path signal 120  -1060 1060  0 1060))
-      (outline (path signal 50  -1500 1500  -1500 -49500))
-      (outline (path signal 50  -1500 -49500  1500 -49500))
-      (outline (path signal 50  1500 -49500  1500 1500))
-      (outline (path signal 50  1500 1500  -1500 1500))
-      (pin Oval[A]Pad_1350x1350_um 25 0 -48000)
-      (pin Oval[A]Pad_1350x1350_um 24 0 -46000)
-      (pin Oval[A]Pad_1350x1350_um 23 0 -44000)
-      (pin Oval[A]Pad_1350x1350_um 22 0 -42000)
-      (pin Oval[A]Pad_1350x1350_um 21 0 -40000)
-      (pin Oval[A]Pad_1350x1350_um 20 0 -38000)
-      (pin Oval[A]Pad_1350x1350_um 19 0 -36000)
-      (pin Oval[A]Pad_1350x1350_um 18 0 -34000)
-      (pin Oval[A]Pad_1350x1350_um 17 0 -32000)
-      (pin Oval[A]Pad_1350x1350_um 16 0 -30000)
-      (pin Oval[A]Pad_1350x1350_um 15 0 -28000)
-      (pin Oval[A]Pad_1350x1350_um 14 0 -26000)
-      (pin Oval[A]Pad_1350x1350_um 13 0 -24000)
-      (pin Oval[A]Pad_1350x1350_um 12 0 -22000)
-      (pin Oval[A]Pad_1350x1350_um 11 0 -20000)
-      (pin Oval[A]Pad_1350x1350_um 10 0 -18000)
-      (pin Oval[A]Pad_1350x1350_um 9 0 -16000)
-      (pin Oval[A]Pad_1350x1350_um 8 0 -14000)
-      (pin Oval[A]Pad_1350x1350_um 7 0 -12000)
-      (pin Oval[A]Pad_1350x1350_um 6 0 -10000)
-      (pin Oval[A]Pad_1350x1350_um 5 0 -8000)
-      (pin Oval[A]Pad_1350x1350_um 4 0 -6000)
-      (pin Oval[A]Pad_1350x1350_um 3 0 -4000)
-      (pin Oval[A]Pad_1350x1350_um 2 0 -2000)
-      (pin Rect[A]Pad_1350x1350_um 1 0 0)
+    (image Connector_PinHeader_2.54mm:PinHeader_1x25_P2.54mm_Vertical
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  1800 -62750  1800 1800))
+      (outline (path signal 50  -1800 -62750  1800 -62750))
+      (outline (path signal 50  -1800 1800  -1800 -62750))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  1330 -1270  1330 -62290))
+      (outline (path signal 120  -1330 -1270  -1330 -62290))
+      (outline (path signal 120  -1330 -62290  1330 -62290))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -62230  -1270 635))
+      (outline (path signal 100  1270 -62230  -1270 -62230))
+      (outline (path signal 100  1270 1270  1270 -62230))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (pin Oval[A]Pad_1700x1700_um 25 0 -60960)
+      (pin Oval[A]Pad_1700x1700_um 24 0 -58420)
+      (pin Oval[A]Pad_1700x1700_um 23 0 -55880)
+      (pin Oval[A]Pad_1700x1700_um 22 0 -53340)
+      (pin Oval[A]Pad_1700x1700_um 21 0 -50800)
+      (pin Oval[A]Pad_1700x1700_um 20 0 -48260)
+      (pin Oval[A]Pad_1700x1700_um 19 0 -45720)
+      (pin Oval[A]Pad_1700x1700_um 18 0 -43180)
+      (pin Oval[A]Pad_1700x1700_um 17 0 -40640)
+      (pin Oval[A]Pad_1700x1700_um 16 0 -38100)
+      (pin Oval[A]Pad_1700x1700_um 15 0 -35560)
+      (pin Oval[A]Pad_1700x1700_um 14 0 -33020)
+      (pin Oval[A]Pad_1700x1700_um 13 0 -30480)
+      (pin Oval[A]Pad_1700x1700_um 12 0 -27940)
+      (pin Oval[A]Pad_1700x1700_um 11 0 -25400)
+      (pin Oval[A]Pad_1700x1700_um 10 0 -22860)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -20320)
+      (pin Oval[A]Pad_1700x1700_um 8 0 -17780)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -15240)
+      (pin Oval[A]Pad_1700x1700_um 6 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
     (image "eec:Panasonic_Corporation-AXK850145WG-0"
       (outline (path signal 150  -5550 -1330  -5550 1330))
@@ -151,9 +151,9 @@
       (pin Rect[T]Pad_230x800_um 3 -4400 -1880)
       (pin Rect[T]Pad_400x800_um 1 -4885 -1880)
     )
-    (padstack Oval[A]Pad_1350x1350_um
-      (shape (path F.Cu 1350  0 0  0 0))
-      (shape (path B.Cu 1350  0 0  0 0))
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
       (attach off)
     )
     (padstack Rect[T]Pad_230x800_um
@@ -164,9 +164,9 @@
       (shape (rect F.Cu -200 -400 200 400))
       (attach off)
     )
-    (padstack Rect[A]Pad_1350x1350_um
-      (shape (rect F.Cu -675 -675 675 675))
-      (shape (rect B.Cu -675 -675 675 675))
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
       (attach off)
     )
     (padstack "Via[0-1]_800:400_um"
@@ -177,79 +177,79 @@
   )
   (network
     (net "Net-(EVEN1-Pad25)"
-      (pins J1-50 EVEN1-25)
+      (pins EVEN1-25 J1-50)
     )
     (net "Net-(EVEN1-Pad24)"
-      (pins J1-48 EVEN1-24)
+      (pins EVEN1-24 J1-48)
     )
     (net "Net-(EVEN1-Pad23)"
-      (pins J1-46 EVEN1-23)
+      (pins EVEN1-23 J1-46)
     )
     (net "Net-(EVEN1-Pad22)"
-      (pins J1-44 EVEN1-22)
+      (pins EVEN1-22 J1-44)
     )
     (net "Net-(EVEN1-Pad21)"
-      (pins J1-42 EVEN1-21)
+      (pins EVEN1-21 J1-42)
     )
     (net "Net-(EVEN1-Pad20)"
-      (pins J1-40 EVEN1-20)
+      (pins EVEN1-20 J1-40)
     )
     (net "Net-(EVEN1-Pad19)"
-      (pins J1-38 EVEN1-19)
+      (pins EVEN1-19 J1-38)
     )
     (net "Net-(EVEN1-Pad18)"
-      (pins J1-36 EVEN1-18)
+      (pins EVEN1-18 J1-36)
     )
     (net "Net-(EVEN1-Pad17)"
-      (pins J1-34 EVEN1-17)
+      (pins EVEN1-17 J1-34)
     )
     (net "Net-(EVEN1-Pad16)"
-      (pins J1-32 EVEN1-16)
+      (pins EVEN1-16 J1-32)
     )
     (net "Net-(EVEN1-Pad15)"
-      (pins J1-30 EVEN1-15)
+      (pins EVEN1-15 J1-30)
     )
     (net "Net-(EVEN1-Pad14)"
-      (pins J1-28 EVEN1-14)
+      (pins EVEN1-14 J1-28)
     )
     (net "Net-(EVEN1-Pad13)"
-      (pins J1-26 EVEN1-13)
+      (pins EVEN1-13 J1-26)
     )
     (net "Net-(EVEN1-Pad12)"
-      (pins J1-24 EVEN1-12)
+      (pins EVEN1-12 J1-24)
     )
     (net "Net-(EVEN1-Pad11)"
-      (pins J1-22 EVEN1-11)
+      (pins EVEN1-11 J1-22)
     )
     (net "Net-(EVEN1-Pad10)"
-      (pins J1-20 EVEN1-10)
+      (pins EVEN1-10 J1-20)
     )
     (net "Net-(EVEN1-Pad9)"
-      (pins J1-18 EVEN1-9)
+      (pins EVEN1-9 J1-18)
     )
     (net "Net-(EVEN1-Pad8)"
-      (pins J1-16 EVEN1-8)
+      (pins EVEN1-8 J1-16)
     )
     (net "Net-(EVEN1-Pad7)"
-      (pins J1-14 EVEN1-7)
+      (pins EVEN1-7 J1-14)
     )
     (net "Net-(EVEN1-Pad6)"
-      (pins J1-12 EVEN1-6)
+      (pins EVEN1-6 J1-12)
     )
     (net "Net-(EVEN1-Pad5)"
-      (pins J1-10 EVEN1-5)
+      (pins EVEN1-5 J1-10)
     )
     (net "Net-(EVEN1-Pad4)"
-      (pins J1-8 EVEN1-4)
+      (pins EVEN1-4 J1-8)
     )
     (net "Net-(EVEN1-Pad3)"
-      (pins J1-6 EVEN1-3)
+      (pins EVEN1-3 J1-6)
     )
     (net "Net-(EVEN1-Pad2)"
-      (pins J1-4 EVEN1-2)
+      (pins EVEN1-2 J1-4)
     )
     (net "Net-(EVEN1-Pad1)"
-      (pins J1-2 EVEN1-1)
+      (pins EVEN1-1 J1-2)
     )
     (net "Net-(J1-Pad49)"
       (pins ODD1-25 J1-49)

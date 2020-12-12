@@ -47,7 +47,7 @@ U 1 1 5FA7F912
 P 4350 3200
 F 0 "ODD1" H 4322 3224 50  0000 R CNN
 F 1 "Conn_01x25_Male" H 4322 3133 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x25_P2.00mm_Vertical" H 4350 3200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x25_P2.54mm_Vertical" H 4350 3200 50  0001 C CNN
 F 3 "~" H 4350 3200 50  0001 C CNN
 	1    4350 3200
 	-1   0    0    -1  
@@ -58,7 +58,7 @@ U 1 1 5FA83BFB
 P 4900 3200
 F 0 "EVEN1" H 5008 4581 50  0000 C CNN
 F 1 "Conn_01x25_Male" H 5008 4490 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x25_P2.00mm_Vertical" H 4900 3200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x25_P2.54mm_Vertical" H 4900 3200 50  0001 C CNN
 F 3 "~" H 4900 3200 50  0001 C CNN
 	1    4900 3200
 	1    0    0    -1  
